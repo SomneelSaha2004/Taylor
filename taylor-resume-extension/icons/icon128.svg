@@ -1,0 +1,6 @@
+<!-- Simple T icon for Taylor extension -->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" fill="#2563EB" rx="16" />
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="72" fill="#FFFFFF">T</text>
+  <path d="M40,90 C40,90 64,70 88,90" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round" />
+</svg>
