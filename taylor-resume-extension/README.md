@@ -2,7 +2,6 @@
 
 A Chrome MV3 extension that helps users tailor their resumes and draft cover letters based on job descriptions. Taylor makes your job applications more effective by adapting your resume to each specific job and generating customized cover letters.
 
-![Taylor Extension Banner](https://via.placeholder.com/800x400?text=Taylor+Resume+Extension)
 
 ## Table of Contents
 - [Installation Guide](#installation-guide)
@@ -19,12 +18,7 @@ A Chrome MV3 extension that helps users tailor their resumes and draft cover let
 
 ## Installation Guide
 
-### Method 1: Install from Chrome Web Store (Coming Soon)
-1. Visit the [Taylor Resume Extension page](https://chromewebstore.google.com) on the Chrome Web Store
-2. Click "Add to Chrome"
-3. Confirm by clicking "Add extension" in the popup
-
-### Method 2: Manual Installation (Developer Mode)
+### Method : Manual Installation (Developer Mode)
 
 #### Prerequisites
 - Google Chrome or any Chromium-based browser (Edge, Brave, etc.)
