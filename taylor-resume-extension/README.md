@@ -2,6 +2,8 @@
 
 A Chrome MV3 extension that helps users tailor their resumes and draft cover letters based on job descriptions. Taylor makes your job applications more effective by adapting your resume to each specific job and generating customized cover letters.
 
+![Taylor Extension Banner](https://via.placeholder.com/800x400?text=Taylor+Resume+Extension)
+
 
 ## Table of Contents
 - [Installation Guide](#installation-guide)
@@ -18,22 +20,39 @@ A Chrome MV3 extension that helps users tailor their resumes and draft cover let
 
 ## Installation Guide
 
-### Method : Manual Installation (Developer Mode)
+### Installation From Source (Developer Mode)
 
 #### Prerequisites
 - Google Chrome or any Chromium-based browser (Edge, Brave, etc.)
-- The extension files (download from releases or build from source)
+- Node.js and npm installed on your computer
+
+#### Building the Extension
+1. Clone or download this repository to your computer:
+   ```bash
+   git clone https://github.com/SomneelSaha2004/Taylor.git
+   cd Taylor
+   ```
+
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Build the extension:
+   ```bash
+   npm run build
+   ```
+   This will create a `dist` folder containing the built extension files
 
 #### Installation Steps
-1. Download and extract the extension files to a folder on your computer
-2. Open your browser and navigate to the extensions page:
+1. Open your browser and navigate to the extensions page:
    - **Chrome**: `chrome://extensions/`
    - **Edge**: `edge://extensions/`
    - **Brave**: `brave://extensions/`
-3. Enable "Developer mode" using the toggle switch in the top-right corner
-4. Click "Load unpacked" button that appears
-5. Select the `dist` folder containing the extension files
-6. The Taylor icon should now appear in your browser's extension toolbar
+2. Enable "Developer mode" using the toggle switch in the top-right corner
+3. Click "Load unpacked" button that appears
+4. Select the `dist` folder that was created during the build process
+5. The Taylor icon should now appear in your browser's extension toolbar
 
 ## Complete User Guide
 
